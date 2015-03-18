@@ -25,7 +25,7 @@
 	<link href="resources/css/style.css" rel="stylesheet" type="text/css">
 	
 	<script type="text/javascript" src="resources/js/angular/angular.js"></script>
-	<script type="text/javascript" src="resources/js/angular/app.js"></script>
+	<script type="text/javascript" src="resources/js/angular/myApp.js"></script>
 	
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
