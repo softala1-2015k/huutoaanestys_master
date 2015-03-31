@@ -41,7 +41,7 @@ public class KurssiDAOImpl implements KurssiDAO {
 	 * 
 	 * @author Atte Valtonen
 	 */
-	@Override
+
 	public Kurssi etsiKurssi(String tunnus) {
 		String sql = "SELECT tunnus, nimi, koulutusohjelma_ID, laajuus, "
 				+ "ajoitus, kuvaus FROM kurssi WHERE tunnus = ?";
@@ -66,7 +66,7 @@ public class KurssiDAOImpl implements KurssiDAO {
 	 * 
 	 * @author Atte Valtonen
 	 */
-	@Override
+
 	public List<Kurssi> haeKurssit() {
 
 		String sql = "SELECT tunnus, nimi, koulutusohjelma_ID, laajuus, "

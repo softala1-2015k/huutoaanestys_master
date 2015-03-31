@@ -42,52 +42,51 @@ public class KurssiImpl implements Kurssi {
 		this.kuvaus = "";
 	}
 
-	@Override
 	public String getTunnus() {
 		return tunnus;
 	}
-	@Override
+
 	public String getNimi() {
 		return nimi;
 	}
-	@Override
+
 	public int getKoulutusohjelma_ID() {
 		return koulutusohjelma_ID;
 	}
-	@Override
+
 	public int getLaajuus() {
 		return laajuus;
 	}
-	@Override
+
 	public int getAjoitus() {
 		return ajoitus;
 	}
-	@Override
+
 	public String getKuvaus() {
 		return kuvaus;
 	}
 
-	@Override
+
 	public void setTunnus(String tunnus) {
 		this.tunnus = tunnus;
 	}
-	@Override
+
 	public void setNimi(String nimi) {
 		this.nimi = nimi;
 	}
-	@Override
+
 	public void setKoulutusohjelma_ID(int koulutusohjelma_ID) {
 		this.koulutusohjelma_ID = koulutusohjelma_ID;
 	}
-	@Override
+
 	public void setLaajuus(int laajuus) {
 		this.laajuus = laajuus;
 	}
-	@Override
+
 	public void setAjoitus(int ajoitus) {
 		this.ajoitus = ajoitus;
 	}
-	@Override
+
 	public void setKuvaus(String kuvaus) {
 		this.kuvaus = kuvaus;
 	}
