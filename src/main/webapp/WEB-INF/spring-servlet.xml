@@ -7,7 +7,7 @@
 	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
-	<context:component-scan base-package="fi.softala1.huutoaanestys" />
+	<context:component-scan base-package="fi.softala1.huutoaanestys_master" />
 
 	<!-- Resolves view names to protected .jsp resources within the /WEB-INF/views 
 		directory -->
