@@ -1,4 +1,7 @@
-# Huutoäänestys
+# Huutoäänestys master
+
+### Softala 1:n Huutoäänestys-projektin back end ja front end yhdistettynä yhdeksi softaksi
+
 
 Softala 1:n Huutoäänestys-projektin spring-ranka.
 
@@ -11,5 +14,9 @@ Repossa on toistaiseksi yksi mallitoiminnallisuus, kurssin tietojen noutaminen t
 
 Näiden lisäksi luodaan todennäköisesti myös service-kansio palveluluokille sekä utility-kansio lisäluokille, joita ei voi niputtaa yksiselitteisesti muihin kansioihin.
 
-Todo:
-- siirrä jsp-sivut secure kansioon kun login on hoidettu
+---
+
+Repossa on myös angular-ranka, jossa on angularin routingilla toteutettu pari sivua.
+
+Ajatuksena on, että front end:stä ja back end:stä on oma branch jotka edelleen branchataan featureiksi. 
+Feature branchit yhdistetään siihen master-branchin haaraan mitä on työstetty ja lopulta front end ja back end branchit yhdistetään yhdeksi softaksi master-branchissä joka paketoidaan WAR-paketiksi ja pudotetaan protolle. 
