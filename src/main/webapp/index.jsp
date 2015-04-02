@@ -5,9 +5,11 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
+
 <!doctype html>
 <html class="no-js">
 <head>
+<<<<<<< HEAD
 <meta charset="utf-8">
 <title></title>
 <meta name="description" content="">
@@ -78,5 +80,6 @@
 	<script src="resources/app/controllers/main.js"></script>
 	<script src="resources/app/controllers/hops.js"></script>
 	<!-- endbuild -->
+
 </body>
 </html>
