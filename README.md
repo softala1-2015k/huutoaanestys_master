@@ -1,6 +1,6 @@
 # Huutoäänestys master
 
-### Softala 1:n Huutoäänestys-projektin back end ja front end yhdistettynä yhdeksi softaksi
+##### Softala 1:n Huutoäänestys-projektin back end ja front end yhdistettynä yhdeksi softaksi
 
 
 Softala 1:n Huutoäänestys-projektin spring-ranka.
@@ -19,4 +19,7 @@ Näiden lisäksi luodaan todennäköisesti myös service-kansio palveluluokille 
 Repossa on myös angular-ranka, jossa on angularin routingilla toteutettu pari sivua.
 
 Ajatuksena on, että front end:stä ja back end:stä on oma branch jotka edelleen branchataan featureiksi. 
-Feature branchit yhdistetään siihen master-branchin haaraan mitä on työstetty ja lopulta front end ja back end branchit yhdistetään yhdeksi softaksi master-branchissä joka paketoidaan WAR-paketiksi ja pudotetaan protolle. 
+Feature branchit yhdistetään siihen master-branchin haaraan mitä on työstetty ja lopulta front end ja back end branchit yhdistetään yhdeksi softaksi master-branchissä joka paketoidaan WAR-paketiksi ja pudotetaan protolle.
+
+Branchin työntäminen remote repoon toimii komennolla (esim. tässä tapauksessa branch nimeltä front):
+git push origin front
