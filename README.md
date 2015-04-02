@@ -21,5 +21,7 @@ Repossa on myös angular-ranka, jossa on angularin routingilla toteutettu pari s
 Ajatuksena on, että front end:stä ja back end:stä on oma branch jotka edelleen branchataan featureiksi. 
 Feature branchit yhdistetään siihen master-branchin haaraan mitä on työstetty ja lopulta front end ja back end branchit yhdistetään yhdeksi softaksi master-branchissä joka paketoidaan WAR-paketiksi ja pudotetaan protolle.
 
-Branchin työntäminen remote repoon toimii komennolla (esim. tässä tapauksessa branch nimeltä front):
+---
+
+Branchin työntäminen remote repoon toimii komennolla (tässä tapauksessa branch nimeltä front):
 git push origin front
